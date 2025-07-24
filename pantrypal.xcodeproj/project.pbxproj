@@ -45,6 +45,11 @@
 			path = pantrypalUITests;
 			sourceTree = "<group>";
 		};
+		C5AEB6C62E32B49000342B92 /* docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = docs;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,7 @@
 		C5AEB5E92E328FBB00342B92 = {
 			isa = PBXGroup;
 			children = (
+				C5AEB6C62E32B49000342B92 /* docs */,
 				C5AEB5F42E328FBB00342B92 /* pantrypal */,
 				C5AEB6032E328FBC00342B92 /* pantrypalTests */,
 				C5AEB60D2E328FBC00342B92 /* pantrypalUITests */,
@@ -109,6 +115,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				C5AEB5F42E328FBB00342B92 /* pantrypal */,
+				C5AEB6C62E32B49000342B92 /* docs */,
 			);
 			name = pantrypal;
 			packageProductDependencies = (
